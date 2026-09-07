@@ -47,6 +47,15 @@ Skills are portable: they describe how to perform recurring engineering work wel
 
 The [AGENTS.md template](templates/AGENTS.md) is a short repository map for coding agents. Fill it with the project's purpose, architecture, invariants, local commands, testing expectations, and any AI-specific boundaries. Keep it specific to that repository; it should point agents to the right context, not replace the repository's documentation.
 
+## Templates and Prompt Library
+
+Skills are reusable engineering workflows that agents can invoke. Prompts are lightweight entry points for interactive work. Templates are consistent artifacts created during engineering work.
+
+- [implementation-plan.md](templates/implementation-plan.md): a structure for planning non-trivial changes before implementation.
+- [plan-feature.md](prompts/plan-feature.md): use before implementation.
+- [debug-systematically.md](prompts/debug-systematically.md): use when the cause of a failure is uncertain.
+- [review-change.md](prompts/review-change.md): use after implementation before merge or release.
+
 ## Principles
 
 - Evidence before assumptions.
