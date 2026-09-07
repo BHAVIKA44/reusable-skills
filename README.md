@@ -37,12 +37,6 @@ Domain skills are invoked only when they fit the work. A stateful workflow chang
 
 Example: for “add approval expiration to a review workflow,” I would first map the repository, plan the contract and state changes, apply the workflow-safety skill, implement the smallest change, then verify failures and recovery paths.
 
-## AGENTS.md vs. skills
-
-`AGENTS.md` is repository-specific: architecture, local constraints, commands, and invariants.
-
-Skills are portable: they describe how to perform recurring engineering work well. Copy the [template](templates/AGENTS.md) into a repository, then use these skills alongside its local guidance.
-
 ## Principles
 
 - Evidence before assumptions.
