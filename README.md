@@ -43,6 +43,10 @@ Example: for “add approval expiration to a review workflow,” I would first m
 
 Skills are portable: they describe how to perform recurring engineering work well. Copy the [template](templates/AGENTS.md) into a repository, then use these skills alongside its local guidance.
 
+### Start with the AGENTS.md template
+
+The [AGENTS.md template](templates/AGENTS.md) is a short repository map for coding agents. Fill it with the project's purpose, architecture, invariants, local commands, testing expectations, and any AI-specific boundaries. Keep it specific to that repository; it should point agents to the right context, not replace the repository's documentation.
+
 ## Principles
 
 - Evidence before assumptions.
